@@ -8,6 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Hangman implementation in C#
+//Robert Kazirut
+//CSI 3370 - Software Engineering and Practice
+//Oakland University
+
 namespace Hangman
 {
 
