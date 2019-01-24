@@ -46,7 +46,7 @@
             this.lblC9 = new System.Windows.Forms.Label();
             this.lblC8 = new System.Windows.Forms.Label();
             this.btnA = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnB = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
             this.btnD = new System.Windows.Forms.Button();
             this.btnE = new System.Windows.Forms.Button();
@@ -260,15 +260,15 @@
             this.btnA.UseVisualStyleBackColor = true;
             this.btnA.Click += new System.EventHandler(this.getClick);
             // 
-            // button2
+            // btnB
             // 
-            this.button2.Location = new System.Drawing.Point(81, 16);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "B";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.getClick);
+            this.btnB.Location = new System.Drawing.Point(81, 16);
+            this.btnB.Name = "btnB";
+            this.btnB.Size = new System.Drawing.Size(75, 23);
+            this.btnB.TabIndex = 18;
+            this.btnB.Text = "B";
+            this.btnB.UseVisualStyleBackColor = true;
+            this.btnB.Click += new System.EventHandler(this.getClick);
             // 
             // btnC
             // 
@@ -524,7 +524,7 @@
             // 
             this.pnlButtons.Controls.Add(this.btnA);
             this.pnlButtons.Controls.Add(this.btnU);
-            this.pnlButtons.Controls.Add(this.button2);
+            this.pnlButtons.Controls.Add(this.btnB);
             this.pnlButtons.Controls.Add(this.btnR);
             this.pnlButtons.Controls.Add(this.btnW);
             this.pnlButtons.Controls.Add(this.btnS);
@@ -602,7 +602,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(826, 367);
+            this.ClientSize = new System.Drawing.Size(831, 367);
             this.Controls.Add(this.lblAns);
             this.Controls.Add(this.lblTest);
             this.Controls.Add(this.lblTries);
@@ -655,7 +655,7 @@
         private System.Windows.Forms.Label lblC9;
         private System.Windows.Forms.Label lblC8;
         private System.Windows.Forms.Button btnA;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnB;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnD;
         private System.Windows.Forms.Button btnE;
